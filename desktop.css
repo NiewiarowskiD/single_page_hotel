@@ -1,0 +1,25 @@
+@media (min-width: 1444px) {
+
+    body{
+        max-width: 1444px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+
+    .nav-link a:first-child{
+        padding-left: 0px;
+    }
+
+    .nav-link a{
+        padding-left: 40px;
+    }
+
+    .logo-container{
+        justify-content: center;
+    }
+
+    .logo-city-name{
+        padding-right:5px;
+    }
+}

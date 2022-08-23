@@ -1,0 +1,157 @@
+@media (min-width: 768px) {
+
+
+
+    nav a {
+
+        font-family: 'Open Sans', sans-serif;
+        color: black;
+    }
+
+    nav a:hover {
+        opacity: 50%;
+    }
+
+
+
+    p{
+        font-size: 0.8em;
+    }
+
+    .logo-container{
+        width:25%;
+    }
+
+    .about-photo-xl{
+        display: initial;
+
+        width: 350px;
+    }
+
+    .about-container{
+        flex-direction: row;
+    }
+
+    .about-image-container{
+        display: none;
+    }
+
+
+    .about-text-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+    }
+
+    .about-text-container h1{
+        margin-left: 0px;
+        margin-bottom: 5px;
+    }
+
+
+
+    .gallery-container{
+        height: 675px;
+    }
+
+    .gallery-card-container{
+        height: 60%;
+        width: 80%;
+    }
+
+    .gallery-photo{
+        width: 70%;
+        max-width: 500px;
+    }
+
+    .offer2-container{
+        height: 980px;
+    }
+
+
+
+    .offer2-list-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .offer2-list{
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        width: 70%;
+    }
+
+
+
+    .hotel-card{
+        flex-direction: row;
+        width:90%;
+        height: 250px;
+    }
+
+    .hotel-card-image{
+        width: 50%;
+        height: 50%;
+    }
+
+    .hotel-describe{
+        width: 50%;
+    }
+
+    .hotel-photo {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .gallery-photo2{
+        display: none;
+    }
+
+
+    .contact-from-container{
+        height:  659px;
+    }
+
+    .footer{
+        height:  300px;
+    }
+
+    .footer-container{
+        width: 80%;
+        flex-direction: row;
+        justify-content: space-between;
+        padding-bottom:10px;
+    }
+    .footer-copyrights{
+        width: 80%;
+        flex-direction: row;
+        justify-content: space-between;
+        padding-bottom:30px;
+
+    }
+
+    .contact-icon-plus-number{
+        justify-content: flex-start;
+
+    }
+
+    .contact-icon-plus-number p{
+        font-size:16px;
+
+    }
+
+    .contact-container{
+        height: 650px;
+    }
+
+
+
+
+
+
+}
+
+
