@@ -6,6 +6,10 @@
         margin-left: auto;
     }
 
+    nav {
+        width: 1110px;
+    }
+
 
     .nav-link a:first-child{
         padding-left: 0px;
