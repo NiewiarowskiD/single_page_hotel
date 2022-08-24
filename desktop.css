@@ -22,4 +22,25 @@
     .logo-city-name{
         padding-right:5px;
     }
+
+
+    .wedding-container p{
+        width: 980px;
+    }
+
+    .hotel-card{
+        width: 1110px;
+    }
+
+    .restaurant-menu-container{
+        width: 1110px;
+        height: 350px;
+    }
+
+
+    .hotel-describe p{
+        margin: 0;
+        width: 500px;
+        font-size: 18px;
+    }
 }
