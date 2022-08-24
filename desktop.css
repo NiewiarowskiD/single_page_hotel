@@ -23,7 +23,9 @@
         padding-right:5px;
     }
 
-
+    .wedding-container{
+        height: 924px;
+    }
     .wedding-container p{
         width: 980px;
     }
@@ -34,13 +36,16 @@
 
     .restaurant-menu-container{
         width: 1110px;
-        height: 350px;
+     }
+
+    .contact-from-container{
+        width: 630px;
+    }
+
+    .contact-form{
+        width: 510px;
     }
 
 
-    .hotel-describe p{
-        margin: 0;
-        width: 500px;
-        font-size: 18px;
-    }
+
 }

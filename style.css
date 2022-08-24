@@ -512,6 +512,7 @@ p{
     width:80%;
     display: flex;
     justify-content: space-around;
+    padding-top:10px;
 
 }
 
@@ -603,5 +604,16 @@ p{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding-top: 15px;
 
+}
+
+.footer-copyrights p{
+    color: #E5D5BB;
+
+}
+
+
+.contact-icon-plus-number img:first-child{
+    padding-right: 10px;
 }

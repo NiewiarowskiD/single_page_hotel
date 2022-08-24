@@ -9,6 +9,10 @@
     }
 
 
+    p{
+        font-size:18px;
+    }
+
     .about-container{
         height: 850px;
     }
@@ -23,6 +27,8 @@
     .about-photo-xl{
         width: 425px;
     }
+
+
 
     .about-image{
         display: flex;
@@ -84,6 +90,7 @@
     .hotel-card{
         width: 98%;
         max-height: 330px;
+        height: auto;
 
     }
 
@@ -107,7 +114,7 @@
     }
 
     .hotel-container{
-        height: 1150px;
+        height: 1300px;
     }
    .hotel-photo{
        width: 100%;
@@ -158,6 +165,11 @@
         align-items: flex-start;
     }
 
+    .contact-form-button-container p {
+        font-size: 12px;
+        text-decoration: underline;
+    }
+
     .contact-form input{
         width: 100%;
     }
@@ -202,6 +214,15 @@
     .wedding-container{
         background-position: top;
     }
+
+
+    .footer p{
+        font-size: 16px;
+    }
+
+
+
+
 
 
 
