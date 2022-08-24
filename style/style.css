@@ -134,7 +134,7 @@ nav .container{
 
 .offer1-container{
 
-    background-image: url("./images/prezent.jpg");
+    background-image: url("../images/prezent.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -220,7 +220,7 @@ p{
 
 
 .wedding-container{
-    background-image: url("./images/Mask Group 5.png");
+    background-image: url("../images/Mask Group 5.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -344,7 +344,7 @@ p{
 
 
 .restaurant-menu-container{
-    background-image: url("./images/_IMG5356 — kopia.png");
+    background-image: url("../images/_IMG5356 — kopia.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -359,7 +359,7 @@ p{
 
 .hotel-container{
     height: 900px;
-    background-image: url("./images/Mask Group 4.svg");
+    background-image: url("../images/Mask Group 4.svg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -446,7 +446,7 @@ p{
 
 .contact-container{
     width: 98%;
-    background-image: url("./images/Mask Group 1.svg");
+    background-image: url("../images/Mask Group 1.svg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
