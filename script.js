@@ -42,7 +42,6 @@ close_menu.addEventListener('click', () =>{
 });
 
 
-
 //Menu scroll
 
 const contact = document.querySelector("#li-contact");
@@ -91,45 +90,6 @@ home.addEventListener("click", ()=>{
 })
 
 
-// Carousel
-
-var slideIndex = 1;
-showDivs(slideIndex);
-
-function plusDivs(n) {
-    showDivs((slideIndex += n));
-}
-
-function showDivs(n) {
-    var i;
-    var x = document.getElementsByClassName("mySlides");
-    if (n > x.length) {
-        slideIndex = 1;
-    }
-    if (n < 1) {
-        slideIndex = x.length;
-    }
-    for (i = 0; i < x.length; i++) {
-        x[i].style.display = "none";
-    }
-    x[slideIndex - 1].style.display = "block";
-}
-var slideIndex = 0;
-carousel();
-
-function carousel() {
-    var i;
-    var x = document.getElementsByClassName("mySlides");
-    for (i = 0; i < x.length; i++) {
-        x[i].style.display = "none";
-    }
-    slideIndex++;
-    if (slideIndex > x.length) {
-        slideIndex = 1;
-    }
-    x[slideIndex - 1].style.display = "block";
-    setTimeout(carousel, 10000);
-}
 
 //Oferty_TABA
 
@@ -153,46 +113,3 @@ $(function () {
 
 
 // carousel 2 //
-$(function(){
-    var container = $(".slide_wrap");
-    var slideShow = container.find(".slide_show");
-    var slideImg = slideShow.find(".slide_img");
-    var slides = slideImg.find(">div");                //슬라이드 이미지
-    var slideBtn = container.find(".slide_btn")        //슬라이드 버튼
-
-    var slideCount = slides.length;                    //슬라이드 개수
-    var slideWidth = slides.innerWidth();                   //슬라이드 이미지의 가로 값
-    var show_num = 3;
-    var num = 0;
-
-    var slideCopy = $(".slide:lt("+show_num+")").clone();
-    slideImg.append(slideCopy);
-
-    //이미지 움직이기
-    function back(){
-        if(num == 0){
-            num == slideCount;
-            slideImg.css("margin-left",-num * slideWidth +"px" )
-        }
-        num--;
-        slideImg.animate({"margin-left": -slideWidth * num+"px"}, 500);
-    };
-    function next(){
-        if(num == slideCount){
-            num == 0;
-            slideImg.css("margin-left",-num * slideWidth +"px");
-        }
-        num++;
-        slideImg.animate({"margin-left": -slideWidth * num+"px"}, 500);
-    };
-
-    //버튼 클릭하기
-    slideBtn.on("click", "a", function(){
-        if($(this).hasClass("prev")){
-            back();
-        } else {
-            next();
-        }
-    });
-
-});

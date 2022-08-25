@@ -383,6 +383,7 @@ p{
 
 .tabs-content li{
     list-style-type: none;
+    display: none;
 }
 
 
@@ -807,6 +808,7 @@ p{
     text-align: center;
     padding: 25px 30px;
     box-shadow: 0 3px 4px rgba(0,0,0,0.2);
+    display: block;
 
 }
 
@@ -815,15 +817,14 @@ p{
 }
 
 .modal button{
-   background-color:  #7C1111;
+    background-color:  #7C1111;
 }
 
 .oferta-p{
-    width: 100%;
+    width: 100% !important;;
 }
 
 
 /* CAROUSEL
 
  */
-

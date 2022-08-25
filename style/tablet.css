@@ -61,7 +61,7 @@
 
     .offer2-container{
         justify-content: flex-start;
-        height: 900px;
+        height: 1000px;
     }
 
     .offer2-container p{
@@ -70,6 +70,11 @@
         font-size: 16px;
         text-align: left;
 
+    }
+
+
+    .oferta-container{
+        display: block;
     }
 
     .offer-2-describe-text{
@@ -197,6 +202,10 @@
 
     .offer2-list li{
         width: 200px;
+    }
+
+    .offer2-container h1{
+        font-size:50px;
     }
 
     .offer2-describe-container{
