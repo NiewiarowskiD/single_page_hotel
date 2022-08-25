@@ -49,13 +49,20 @@ h1{
 
 h3{
     text-align: left;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 600;
+    font-family: 'Abril Fatface', cursive;
+    font-size: 28px;
+    padding: 10px;
+
 
 }
 
 h2 {
     text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size:20px;
+    padding:10px;
+    mso-font-width: bold;
+
 }
 
 .body-container{
@@ -71,8 +78,8 @@ h2 {
 
 
 
-nav .container{
-    height: 85px;
+.nav_container{
+    height: 248px;
     background-color: white;
     display: flex;
     justify-content: space-between;
@@ -245,7 +252,8 @@ p{
 .wedding-header-container{
     display: flex;
     align-items: center;
-    justify-items: center
+    justify-items: center;
+    padding-top: 35px;
 ;
 
 }
@@ -725,45 +733,15 @@ p{
 }
 
 
-
-
-
 .carousel_container{
+    margin-top: -85px;
     max-width:1440px;
 
 
 }
-.mySlides {
-    display: none;
-}
-.slider {
-    margin: 0px;
-    width: 100%;
-    position: relative;
-    display: block;
-}
-.flex-container {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-content: space-between;
-    align-items: center;
-    width: 100%;
-    position: absolute;
-    top: 40%;
-}
 
-.next,
-.prev {
-    border: none !important;
-    background: transparent;
-    font-size: 2.5rem;
-    z-index: 4;
-    cursor: pointer;
-    background: rgba(255, 255, 255, 0.2);
-    width:50px;
-}
+
+
 
 .next {
     align-items: flex-end;
@@ -825,6 +803,17 @@ p{
 }
 
 
+
 /* CAROUSEL
 
  */
+.oferta-wigilijna{
+    color: white;
+}
+.oferta-wigilijna-button{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 22px;
+}
+.carousel-caption{
+}

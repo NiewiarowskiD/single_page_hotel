@@ -10,7 +10,8 @@
 
 
     p{
-        font-size:18px;
+        font-family: 'Open Sans', sans-serif;
+        font-size:16px;
     }
 
     .about-container{
@@ -149,7 +150,7 @@
     }
 
     .contact-container{
-        height: 550px;
+        height: 660px;
     }
 
     .contact-from-container{
