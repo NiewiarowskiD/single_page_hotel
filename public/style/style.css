@@ -15,8 +15,6 @@ a {
 }
 nav {
     width: 98%;
-
-
 }
 
 button{
@@ -80,7 +78,6 @@ nav .container{
 }
 
 .nav-link a{
-
     color:#211D1D;
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
@@ -136,8 +133,6 @@ nav .container{
 
 
 .offer1-container{
-
-    padding-top: 85px;
 
     background-image: url("../images/prezent.jpg");
     background-position: center;
@@ -250,8 +245,6 @@ p{
 
 }
 .wedding-card{
-
-
     margin-top:40px;
     display: flex;
     flex-direction: column;
@@ -259,19 +252,7 @@ p{
     align-items: center;
 }
 
-.describe-container{
-    width: 100%;
-    height: 250px;
-    background-color: #E5D5BB;
-    border: 1px solid black;
-    padding-top: 20px;
-    padding-bottom: 20px;
-}
 
-.describe{
-    width: 90% !important;
-
-}
 
 .card-button{
     font-family: 'Open Sans', sans-serif;
@@ -635,154 +616,4 @@ p{
 
 .contact-icon-plus-number img:first-child{
     padding-right: 10px;
-}
-
-.menu-hamburger:hover{
-    cursor: pointer;
-}
-
-
-
-
-
-
-
-/* class needed to JS*/
-
-
-.active-burger{
-    z-index: 5;
-    cursor: pointer;
-    width:50%;
-    height: auto;
-    display: initial;
-    display: flex;
-    flex-direction: column;
-    position: absolute;
-    top: 93px;
-    left: 0;
-    background-color: rgba(251, 250, 245,1);
-}
-
-.active-burger a{
-    text-align: center;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: bold;
-    text-transform: uppercase;
-    cursor: pointer;
-    padding:10px;
-    font-size: 25px;
-    color: black;
-    border: 1px black solid ;
-    opacity: 0.5;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-
-}
-
-.active-burger a:hover{
-    background-color: #E5D5BB;
-    opacity:1;
-}
-
-.non-active{
-    display: none;
-}
-
-
-
-
-
-.carousel_container{
-    max-width:1440px;
-
-
-}
-.mySlides {
-    display: none;
-}
-.slider {
-    margin: 0px;
-    width: 100%;
-    position: relative;
-    display: block;
-}
-.flex-container {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-content: space-between;
-    align-items: center;
-    width: 100%;
-    position: absolute;
-    top: 40%;
-}
-
-.next,
-.prev {
-    border: none !important;
-    background: transparent;
-    font-size: 2.5rem;
-    z-index: 4;
-    cursor: pointer;
-    background: rgba(255, 255, 255, 0.2);
-    width:50px;
-}
-
-.next {
-    align-items: flex-end;
-}
-.prev {
-    align-items: flex-start;
-}
-
-
-
-
-/* POPUP */
-
-.modal-container{
-    background-color: rgba(0,0,0,0.3);
-    position: fixed;
-    top:0;
-    left:0;
-    height: 100vh;
-    width:100vw;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    opacity: 0;
-    pointer-events: none;
-    z-index: 3;
-
-
-
-
-}
-
-.modal-container.show{
-    pointer-events: auto;
-    opacity:1 ;
-}
-
-.modal{
-    background-color: #E5D5BB;
-    width:600px;
-    max-width: 100%;
-    text-align: center;
-    padding: 25px 30px;
-    box-shadow: 0 3px 4px rgba(0,0,0,0.2);
-
-}
-
-.modal p{
-    padding-bottom: 20px;
-}
-
-.modal button{
-   background-color:  #7C1111;
-}
-
-.oferta-p{
-    width: 100%;
 }

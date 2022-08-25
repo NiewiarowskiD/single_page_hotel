@@ -1,0 +1,55 @@
+@media (min-width: 1444px) {
+
+    body{
+        max-width: 1444px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    nav {
+        width: 1110px;
+    }
+
+
+    .nav-link a:first-child{
+        padding-left: 0px;
+    }
+
+    .nav-link a{
+        padding-left: 40px;
+    }
+
+    .logo-container{
+        justify-content: center;
+    }
+
+    .logo-city-name{
+        padding-right:5px;
+    }
+
+    .wedding-container{
+        height: 924px;
+    }
+    .wedding-container p{
+        width: 980px;
+    }
+
+    .hotel-card{
+        width: 1110px;
+    }
+
+    .restaurant-menu-container{
+        width: 1110px;
+     }
+
+    .contact-from-container{
+        width: 630px;
+    }
+
+    .contact-form{
+        width: 510px;
+    }
+
+
+
+}
