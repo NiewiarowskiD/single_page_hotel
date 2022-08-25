@@ -291,6 +291,10 @@ p{
 
 }
 
+.offer2-image{
+    width:80%;
+}
+
 .offer2-describe-list-container{
     width: 98%;
     display: flex;
@@ -316,6 +320,12 @@ p{
     height: 30px;
 }
 
+.tabs-content{
+    width: 80%;
+
+}
+
+
 .offer2-image-container{
     width: 80%;
 }
@@ -328,9 +338,13 @@ p{
 .offer2-container p{
     padding-top: 10px;
     padding-bottom: 10px;
-    font-size: 16px;
+    font-size: 14px;
     color: white;
     text-align: center;
+}
+.offer2-container h1{
+    font-size: 20px;
+
 }
 
 
@@ -341,15 +355,36 @@ p{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
+    font-size: 16px;
+}
+
+
+
+.offer-list-li img{
+    padding-right: 10px;
 }
 
 .offer2-list li{
+
     display: flex;
     width: 200px;
     border-bottom: 0.5px solid whitesmoke;
     border-left: 6px solid #640a0a;
     padding:15px;
 }
+
+.offer2-list li:hover{
+    background-color: rgba(100,10,10,0.5);
+    cursor: pointer;
+}
+
+.tabs-content li{
+    list-style-type: none;
+}
+
 
 .list-link{
     padding-left: 10px;
@@ -786,3 +821,9 @@ p{
 .oferta-p{
     width: 100%;
 }
+
+
+/* CAROUSEL
+
+ */
+

@@ -78,10 +78,23 @@
     }
 
     .offer2-list{
-        flex-direction: row;
+        flex-direction: row-reverse;
         flex-wrap: wrap;
-        justify-content: space-around;
-        width: 70%;
+        align-items: center;
+        justify-content: center;
+        width: 80%;
+    }
+
+    .offer2-list li{
+        width: auto;
+    }
+
+    .offer2-container p{
+        font-size: 16px;
+    }
+    .offer2-container h1{
+        font-size: 26px;
+
     }
 
 

@@ -184,14 +184,19 @@
 
 
     .offer2-describe-list-container{
-        width: 98%;
+        width: 80%;
+        max-width: 900px;
         display: flex;
-        flex-direction: row-reverse;
+        flex-direction: row;
         justify-content: space-around;
     }
 
     .offer2-list-container{
         width: 30%;
+    }
+
+    .offer2-list li{
+        width: 200px;
     }
 
     .offer2-describe-container{
@@ -218,6 +223,10 @@
 
     .footer p{
         font-size: 16px;
+    }
+
+    .oferta-container{
+        width:740px;
     }
 
 
