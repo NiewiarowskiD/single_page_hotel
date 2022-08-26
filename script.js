@@ -112,4 +112,4 @@ $(function () {
 });
 
 
-// carousel 2 //
+// gallery2 //

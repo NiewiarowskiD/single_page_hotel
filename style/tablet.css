@@ -147,6 +147,7 @@
 
     .gallery-container{
         height: 600px;
+        padding-top:50px;
     }
 
     .contact-container{
@@ -236,7 +237,7 @@
     }
 
     .oferta-container{
-        width:740px;
+        width:630px;
     }
 
 
